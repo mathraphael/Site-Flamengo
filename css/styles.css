@@ -1,0 +1,90 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: white;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+
+}
+.bold{
+    font-weight: bold;
+}
+.main-titulo{
+    text-align: center; 
+    font-size: 40px;   
+}
+
+.main-paragraph{
+    text-align: center;
+    font-style: italic;
+    
+
+}
+
+.feature-image{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 2px dashed #ddd;
+    border-bottom: 2px dashed #ddd;
+}
+
+.biography-paragraph{
+    text-align: justify;
+}
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+    
+}
+
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+    
+
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 2px dashed #ddd;
+    border-bottom: 2px dashed #ddd;
+}
+
+.curiosities-container li{
+    height: 30px;
+    text-align: justify;
+}
+
+.img-bold{
+    text-align: center;
+    font-weight: bold;
+}
+
+.moreinfo-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-bottom: 2px dashed #ddd;
+}
+
+.moreinfo-container a{
+    text-decoration: none;
+}
+
+
