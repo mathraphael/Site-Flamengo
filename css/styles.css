@@ -39,14 +39,18 @@ html{
 .biography-container{
     padding: 25px 0;
     margin: 25px 0;
-    border-top: 1px dashed #d2232a;
-    border-bottom: 1px dashed #d2232a;
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
+}
+
+.biography-title{
+    color: #d2232a;
 }
 
 .biography-container2{
     padding: 25px 0;
     margin: 25px 0;
-    border-bottom: 1px dashed #d2232a;
+    border-bottom: 1px dashed #333;
     
 }
 
@@ -63,6 +67,7 @@ html{
 .quotes-container blockquote{
     font-weight: bold;
     font-size: 30px;
+    color: white;
     
 
 }
@@ -74,8 +79,8 @@ html{
 .curiosities-container{
     padding: 25px 0;
     margin: 25px 0;
-    border-top: 1px dashed #d2232a;
-    border-bottom: 1px dashed #d2232a;
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
 }
 
 .curiosities-container li{
@@ -91,12 +96,30 @@ html{
 .moreinfo-container{
     padding: 25px 0;
     margin: 25px 0;
-    border-bottom: 1px dashed #d2232a;
+    border-bottom: 1px dashed #333;
 }
 
 .moreinfo-container a{
     text-decoration: none;
     color: #d2232a;
+}
+
+.moreinfo-title{
+    color: #d2232a;
+}
+
+.absolute-image{
+    position: absolute;
+    left:  2px;
+    top: 0;
+    
+}
+
+.absolute-image2{
+    position: absolute;
+    right: 2px;
+    top: 0;
+    
 }
 
 
